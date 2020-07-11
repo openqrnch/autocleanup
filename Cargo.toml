@@ -1,0 +1,12 @@
+[package]
+name = "autocleanup"
+version = "0.8.0"
+authors = ["Jan Danielsson <jan.danielsson@qrnch.com>"]
+edition = "2018"
+license = "0BSD"
+keywords = [ "raii", "cleanup" ]
+repository = "https://github.com/openqrnch/autocleanup"
+description = "RAII wrapper for non-RAII objects."
+exclude = [ "build.sh", "tag.sh", "publish.sh" ]
+
+[dependencies]
